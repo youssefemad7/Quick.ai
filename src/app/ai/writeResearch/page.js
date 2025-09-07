@@ -84,7 +84,7 @@ function SearchPage() {
               <p className="text-sm text-gray-400">Searching...</p>
             ) : (
               <p className="text-sm text-gray-400">
-                Enter a query and click "Research" to get results
+                Enter a query and click &quot;Research&quot; to get results
               </p>
             )}
           </div>

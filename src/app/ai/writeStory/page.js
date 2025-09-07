@@ -83,7 +83,8 @@ function Page() {
               </>
             ) : (
               <p className="text-sm text-gray-400">
-                Enter a prompt and click "Generate Story" to get started
+                Enter a prompt and click &quot;Generate Story&quot; to get
+                started
               </p>
             )}
           </div>
