@@ -98,8 +98,7 @@ function Page() {
               <div className="text-sm flex flex-col items-center gap-5 text-gray-400">
                 <Eraser className="w-9 h-9" />
                 <p>
-                  Upload an image and click &quot;Remove Background&quot; to get
-                  started
+                  Upload an image and click Remove Background to get started
                 </p>
               </div>
             )}
