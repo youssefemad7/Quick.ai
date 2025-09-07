@@ -1,5 +1,6 @@
 "use client";
 import { Sparkles, Eraser } from "lucide-react";
+import Image from "next/image";
 import { useState } from "react";
 
 function Page() {
@@ -82,9 +83,11 @@ function Page() {
           <div className="flex-1 flex justify-center items-center">
             {processedImage ? (
               <div className="flex flex-col gap-4 items-center">
-                <img
+                <Image
                   src={processedImage}
                   alt="Processed"
+                  width={300}
+                  height={300}
                   className="rounded-lg border border-gray-200 max-h-72 object-cover"
                 />
                 <p className="text-sm text-gray-600">

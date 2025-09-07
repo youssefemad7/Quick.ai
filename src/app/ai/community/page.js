@@ -1,5 +1,6 @@
 "use client";
 import { Heart } from "lucide-react";
+import Image from "next/image";
 import { useState } from "react";
 
 function Page() {
@@ -49,10 +50,12 @@ function Page() {
       <div className="bg-white h-full w-full rounded-xl overflow-y-scroll p-3 gap-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {creations.map((item) => (
           <div key={item.id} className="relative group w-full">
-            <img
+            <Image
               className="w-full h-full object-cover rounded-lg"
               src={item.img}
               alt="generated"
+              width={400}
+              height={400}
             />
             <div className="absolute bottom-0 top-0 right-0 left-0 flex gap-2 items-end justify-end group-hover:justify-between p-3 group-hover:bg-gradient-to-b from-transparent to-black/80 text-white rounded-lg transition-all">
               <p className="text-sm hidden group-hover:block">{item.desc}</p>
