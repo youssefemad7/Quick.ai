@@ -2,7 +2,12 @@
 const nextConfig = {
   // devIndicators: false // Uncomment this line to disable dev indicators
   images: {
-    domains: ["anotherdomain.com", "cdn.dummyjson.com", "flowbite.com"],
+    domains: [
+      "anotherdomain.com",
+      "cdn.dummyjson.com",
+      "flowbite.com",
+      "res.cloudinary.com",
+    ],
   },
 };
 
