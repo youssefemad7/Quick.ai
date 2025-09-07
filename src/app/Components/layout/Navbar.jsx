@@ -11,7 +11,7 @@ function Navbar() {
         </div>
         <div className="relative md:right-[5%] sm:w-[150px]">
           <Link href="/ai">
-            <button className="text-[white] text-[1rem] bg-[#5044E5] w-[150px] md:w-[200px] h-[50px] border-none rounded-full ">
+            <button className="text-[white] text-[1rem] bg-[#5044E5] w-[150px] md:w-[200px] h-[50px] border-none rounded-full cursor-pointer hover:scale-105 duration-300">
               Get Started
             </button>
           </Link>
